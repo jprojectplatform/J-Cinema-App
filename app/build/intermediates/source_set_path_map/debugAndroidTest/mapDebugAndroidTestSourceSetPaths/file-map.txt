@@ -1,0 +1,4 @@
+com.cti.cinetvin.test.app-androidTest-0 /home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/build/generated/res/resValues/androidTest/debug
+com.cti.cinetvin.test.app-mergeDebugAndroidTestResources-1 /home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.cti.cinetvin.test.app-mergeDebugAndroidTestResources-2 /home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.cti.cinetvin.test.app-debugAndroidTest-3 /home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

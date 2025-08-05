@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cti.cinetvin.app-mergeDebugResources-2:/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/res/values-v26/styles.xml",
+                    "from": {
+                        "startLines": "2,12,14,16,19,22,26,28,31,35,40,45,50,56,59",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,688,782,888,1050,1224,1470,1582,1767,2016,2345,2691,3037,3422,3604",
+                        "endLines": "11,13,15,18,21,25,27,30,34,39,44,49,55,58,70",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "683,777,883,1045,1219,1465,1577,1762,2011,2340,2686,3032,3417,3599,4370"
+                    }
+                }
+            ]
+        }
+    ]
+}

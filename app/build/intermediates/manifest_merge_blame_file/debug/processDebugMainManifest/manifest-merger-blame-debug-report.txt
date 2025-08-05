@@ -1,0 +1,2044 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cti.cinetvin"
+4    android:compileSdkVersion="35"
+5    android:compileSdkVersionCodename="15"
+6    android:platformBuildVersionCode="35"
+7    android:platformBuildVersionName="15"
+8    android:versionCode="30000"
+9    android:versionName="Vip" >
+10
+11    <uses-sdk
+11-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:11:5-13:40
+12        android:minSdkVersion="24"
+12-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:12:9-35
+13        android:targetSdkVersion="33" />
+13-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:13:9-38
+14
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:14:5-78
+15-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:14:22-76
+16    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+16-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:15:5-78
+16-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:15:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:16:5-66
+17-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:16:22-64
+18    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+18-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:17:5-75
+18-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:17:22-73
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:18:5-75
+19-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:18:22-73
+20    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+20-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:19:5-85
+20-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:19:22-83
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:20:5-74
+21-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:20:22-72
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:21:5-79
+22-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:21:22-77
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:22:5-80
+23-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:22:22-78
+24    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+24-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:23:5-78
+24-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:23:22-76
+25    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+25-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:24:5-75
+25-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:24:22-73
+26    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+26-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:25:5-74
+26-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:25:22-72
+27    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+27-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:26:5-74
+27-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:26:22-72
+28    <uses-permission android:name="android.permission.CAMERA" />
+28-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:27:5-64
+28-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:27:22-62
+29    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+29-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:28:5-83
+29-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:28:22-81
+30    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+30-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:29:5-70
+30-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:29:22-68
+31    <uses-permission android:name="android.permission.VIBRATE" />
+31-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:30:5-65
+31-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:30:22-63
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:31:5-76
+32-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:31:22-74
+33    <uses-permission android:name="android.permission.READ_LOGS" />
+33-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:32:5-67
+33-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:32:22-65
+34    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+34-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:33:5-34:47
+34-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:33:22-74
+35    <uses-permission android:name="android.permission.CONTROL_DISPLAY_BRIGHTNESS" />
+35-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:35:5-36:47
+35-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:35:22-82
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:37:5-67
+36-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:37:22-65
+37    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+37-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:38:5-77
+37-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:38:22-75
+38    <uses-permission android:name="android.permission.GET_TASKS" />
+38-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:39:5-67
+38-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:39:22-65
+39    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+39-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:40:5-79
+39-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:40:22-77
+40    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+40-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:41:5-82
+40-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:41:22-80
+41
+42    <queries package="com.cti.cinetvin" >
+42-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:42:5-86:15
+42-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:42:14-40
+43        <intent>
+43-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:43:9-45:18
+44            <action android:name="android.media.action.IMAGE_CAPTURE" />
+44-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:44:13-72
+44-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:44:21-70
+45        </intent>
+46        <intent>
+46-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:46:9-48:18
+47            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+47-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:47:13-79
+47-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:47:21-77
+48        </intent>
+49        <intent>
+49-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:49:9-51:18
+50            <action android:name="androidx.browser.customtabs.CustomTabsService" />
+50-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:50:13-83
+50-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:50:21-81
+51        </intent>
+52        <intent>
+52-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:52:9-56:18
+53            <action android:name="android.intent.action.VIEW" />
+53-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:13-64
+53-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:21-62
+54
+55            <category android:name="android.intent.category.BROWSABLE" />
+55-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:54:13-73
+55-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:54:23-71
+56
+57            <data android:scheme="https" />
+57-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:13-43
+57-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:19-41
+58        </intent>
+59        <intent>
+59-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:57:9-61:18
+60            <action android:name="android.intent.action.VIEW" />
+60-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:13-64
+60-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:21-62
+61
+62            <category android:name="android.intent.category.BROWSABLE" />
+62-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:54:13-73
+62-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:54:23-71
+63
+64            <data android:scheme="http" />
+64-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:13-43
+64-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:19-41
+65        </intent>
+66        <intent>
+66-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:62:9-65:18
+67            <action android:name="android.intent.action.VIEW" />
+67-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:13-64
+67-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:21-62
+68
+69            <data android:scheme="market" />
+69-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:13-43
+69-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:19-41
+70        </intent>
+71
+72        <package android:name="com.android.chrome" />
+72-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:66:9-53
+72-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:66:18-51
+73        <package android:name="com.google.android.webview" />
+73-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:67:9-61
+73-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:67:18-59
+74        <package android:name="com.android.webview" />
+74-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:68:9-54
+74-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:68:18-52
+75        <package android:name="com.android.vending" />
+75-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:69:9-54
+75-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:69:18-52
+76        <package android:name="com.facebook.katana" />
+76-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:70:9-54
+76-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:70:18-52
+77
+78        <intent>
+78-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:71:9-73:18
+79            <action android:name="com.applovin.am.intent.action.APPHUB_SERVICE" />
+79-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:72:13-82
+79-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:72:21-80
+80        </intent>
+81        <intent>
+81-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:74:9-76:18
+82            <action android:name="android.support.customtabs.action.CustomTabsService" />
+82-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:75:13-89
+82-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:75:21-87
+83        </intent>
+84        <intent>
+84-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:77:9-79:18
+85            <action android:name="android.intent.action.MAIN" />
+85-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:78:13-64
+85-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:78:21-62
+86        </intent>
+87        <intent>
+87-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:80:9-82:18
+88            <action android:name="android.intent.action.VIEW" />
+88-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:13-64
+88-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:21-62
+89        </intent>
+90        <intent>
+90-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:83:9-85:18
+91            <action android:name="com.digitalturbine.ignite.cl.IgniteRemoteService" />
+91-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:84:13-86
+91-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:84:21-84
+92        </intent>
+93    </queries>
+94
+95    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+95-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:87:5-80
+95-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:87:22-78
+96    <uses-permission android:name="android.permission.FLASHLIGHT" />
+96-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:88:5-68
+96-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:88:22-66
+97
+98    <uses-feature android:name="android.hardware.camera" />
+98-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:89:5-59
+98-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:89:19-57
+99    <uses-feature android:name="android.hardware.camera.autofocus" />
+99-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:90:5-69
+99-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:90:19-67
+100    <uses-feature
+100-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:91:5-93:36
+101        android:name="android.hardware.telephony"
+101-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:92:9-50
+102        android:required="false" />
+102-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:93:9-33
+103
+104    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+104-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:95:5-82
+104-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:95:22-80
+105    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+105-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:96:5-87
+105-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:96:22-85
+106    <uses-permission android:name="com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE" />
+106-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:97:5-95
+106-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:97:22-93
+107    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+107-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:98:5-81
+107-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:98:22-79
+108
+109    <permission
+109-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:99:5-101:46
+110        android:name="com.cti.cinetvin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+110-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:100:9-81
+111        android:protectionLevel="signature" />
+111-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:101:9-44
+112
+113    <uses-permission android:name="com.cti.cinetvin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+113-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:102:5-96
+113-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:102:22-94
+114    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+114-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:103:5-109
+114-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:103:22-107
+115
+116    <application
+116-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:104:5-969:19
+117        android:name="com.stub.StubApp"
+117-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:108:9-40
+118        android:allowBackup="true"
+118-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:110:9-35
+119        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+119-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:118:9-77
+120        android:debuggable="true"
+121        android:extractNativeLibs="true"
+121-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:114:9-41
+122        android:hardwareAccelerated="true"
+122-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:111:9-43
+123        android:icon="@mipmap/ic_launcher"
+123-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:107:9-43
+124        android:label="@string/app_name"
+124-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:106:9-41
+125        android:largeHeap="true"
+125-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:112:9-33
+126        android:networkSecurityConfig="@xml/network_security_config"
+126-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:116:9-69
+127        android:requestLegacyExternalStorage="true"
+127-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:119:9-52
+128        android:roundIcon="@mipmap/ic_launcher_round"
+128-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:117:9-54
+129        android:supportsRtl="true"
+129-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:113:9-35
+130        android:testOnly="false"
+130-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:109:9-33
+131        android:theme="@style/BrowserTheme"
+131-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:105:9-44
+132        android:usesCleartextTraffic="true" >
+132-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:115:9-44
+133        <meta-data
+133-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:120:9-122:44
+134            android:name="UMENG_CHANNEL"
+134-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:121:13-41
+135            android:value="cinetvin_3001" />
+135-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:122:13-42
+136        <meta-data
+136-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:123:9-125:69
+137            android:name="com.google.android.gms.ads.APPLICATION_ID"
+137-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:124:13-69
+138            android:value="ca-app-pub-9304934124802516~2645984250" />
+138-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:125:13-67
+139        <meta-data
+139-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:126:9-128:54
+140            android:name="com.facebook.sdk.ApplicationId"
+140-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:127:13-58
+141            android:value="@string/facebook_app_id" />
+141-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:128:13-52
+142        <meta-data
+142-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:129:9-131:60
+143            android:name="com.facebook.sdk.ClientToken"
+143-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:130:13-56
+144            android:value="@string/facebook_client_token" />
+144-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:131:13-58
+145
+146        <service
+146-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:132:9-134:39
+147            android:name="com.mgs.carparking.download.DownloadService"
+147-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:133:13-71
+148            android:exported="false" />
+148-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:134:13-37
+149
+150        <provider
+150-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:135:9-143:20
+151            android:name="com.mgs.carparking.util.MyProvider"
+151-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:136:13-62
+152            android:authorities="com.cti.cinetvin.fileProvider"
+152-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:138:13-64
+153            android:exported="false"
+153-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:137:13-37
+154            android:grantUriPermissions="true" >
+154-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:139:13-47
+155            <meta-data
+155-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:140:13-142:53
+156                android:name="android.support.FILE_PROVIDER_PATHS"
+156-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:141:17-67
+157                android:resource="@xml/file_paths" />
+157-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:142:17-51
+158        </provider>
+159
+160        <uses-library
+160-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:144:9-146:39
+161            android:name="org.apache.http.legacy"
+161-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:145:13-50
+162            android:required="false" />
+162-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:146:13-37
+163
+164        <service
+164-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:147:9-149:39
+165            android:name="com.mgs.carparking.androidupnp.ClingUpnpService"
+165-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:148:13-75
+166            android:exported="false" />
+166-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:149:13-37
+167        <service
+167-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:150:9-152:39
+168            android:name="com.mgs.carparking.androidupnp.SystemService"
+168-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:151:13-72
+169            android:exported="false" />
+169-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:152:13-37
+170
+171        <activity
+171-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:153:9-162:20
+172            android:name="com.mgs.carparking.ui.SplashActivity"
+172-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:155:13-64
+173            android:alwaysRetainTaskState="true"
+173-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:157:13-49
+174            android:exported="true"
+174-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:156:13-36
+175            android:theme="@style/AppTheme_Splash" >
+175-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:154:13-51
+176            <intent-filter>
+176-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:158:13-161:29
+177                <action android:name="android.intent.action.MAIN" />
+177-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:78:13-64
+177-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:78:21-62
+178
+179                <category android:name="android.intent.category.LAUNCHER" />
+179-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:160:17-76
+179-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:160:27-74
+180            </intent-filter>
+181        </activity>
+182        <activity
+182-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:163:9-167:51
+183            android:name="com.mgs.carparking.ui.MainActivity"
+183-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:164:13-62
+184            android:exported="true"
+184-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:165:13-36
+185            android:launchMode="singleTask"
+185-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:166:13-44
+186            android:screenOrientation="portrait" />
+186-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:167:13-49
+187        <activity
+187-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:168:9-172:46
+188            android:name="com.mgs.carparking.ui.CollectionActivity"
+188-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:170:13-68
+189            android:exported="true"
+189-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:171:13-36
+190            android:launchMode="singleTask"
+190-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:172:13-44
+191            android:theme="@style/AppTheme_Main" />
+191-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:169:13-49
+192        <activity
+192-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:173:9-176:108
+193            android:name="com.mgs.carparking.ui.VideoPlayDetailActivity"
+193-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:174:13-73
+194            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+194-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:176:13-106
+195            android:screenOrientation="portrait" />
+195-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:175:13-49
+196        <activity
+196-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:177:9-180:58
+197            android:name="com.mgs.carparking.ui.SearchContentVideoActivity"
+197-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:178:13-76
+198            android:screenOrientation="portrait"
+198-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:179:13-49
+199            android:windowSoftInputMode="adjustNothing" />
+199-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:180:13-56
+200        <activity
+200-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:181:9-183:51
+201            android:name="com.mgs.carparking.ui.HistoryActivity"
+201-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:182:13-65
+202            android:screenOrientation="portrait" />
+202-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:183:13-49
+203        <activity
+203-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:184:9-186:108
+204            android:name="com.mgs.carparking.ui.DownloadVideoPlayActivity"
+204-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:185:13-75
+205            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" />
+205-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:186:13-106
+206        <activity
+206-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:187:9-189:51
+207            android:name="com.mgs.carparking.ui.DownloadCompleteSecondActivity"
+207-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:188:13-80
+208            android:screenOrientation="portrait" />
+208-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:189:13-49
+209        <activity
+209-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:190:9-193:69
+210            android:name="com.mgs.carparking.ui.FeedbackActivity"
+210-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:191:13-66
+211            android:screenOrientation="portrait"
+211-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:192:13-49
+212            android:windowSoftInputMode="adjustResize|stateHidden" />
+212-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:193:13-67
+213        <activity
+213-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:194:9-196:51
+214            android:name="com.mgs.carparking.ui.FeedbackRecordActivity"
+214-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:195:13-72
+215            android:screenOrientation="portrait" />
+215-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:196:13-49
+216        <activity
+216-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:197:9-199:51
+217            android:name="com.mgs.carparking.ui.ChannelFragment"
+217-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:198:13-65
+218            android:screenOrientation="portrait" />
+218-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:199:13-49
+219        <activity
+219-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:200:9-202:51
+220            android:name="com.mgs.carparking.ui.VideoMoreListActivity"
+220-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:201:13-71
+221            android:screenOrientation="portrait" />
+221-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:202:13-49
+222        <activity
+222-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:203:9-205:51
+223            android:name="com.mgs.carparking.ui.SettingActivity"
+223-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:204:13-65
+224            android:screenOrientation="portrait" />
+224-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:205:13-49
+225        <activity
+225-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:206:9-208:51
+226            android:name="com.mgs.carparking.ui.OrderListActivity"
+226-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:207:13-67
+227            android:screenOrientation="portrait" />
+227-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:208:13-49
+228        <activity
+228-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:209:9-211:51
+229            android:name="com.mgs.carparking.ui.LoginActivity"
+229-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:210:13-63
+230            android:screenOrientation="portrait" />
+230-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:211:13-49
+231        <activity
+231-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:212:9-214:51
+232            android:name="com.mgs.carparking.ui.EditMineActivity"
+232-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:213:13-66
+233            android:screenOrientation="portrait" />
+233-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:214:13-49
+234        <activity
+234-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:215:9-217:51
+235            android:name="com.mgs.carparking.ui.RegisterActivity"
+235-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:216:13-66
+236            android:screenOrientation="portrait" />
+236-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:217:13-49
+237        <activity
+237-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:218:9-220:51
+238            android:name="com.mgs.carparking.ui.DownloadActivity"
+238-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:219:13-66
+239            android:screenOrientation="portrait" />
+239-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:220:13-49
+240        <activity
+240-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:221:9-223:51
+241            android:name="com.mgs.carparking.ui.SpecialDetailNewActivity"
+241-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:222:13-74
+242            android:screenOrientation="portrait" />
+242-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:223:13-49
+243        <activity
+243-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:224:9-226:51
+244            android:name="com.mgs.carparking.ui.ExtensionRecordActivity"
+244-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:225:13-73
+245            android:screenOrientation="portrait" />
+245-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:226:13-49
+246        <activity
+246-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:227:9-229:51
+247            android:name="com.mgs.carparking.ui.ExtensionShareActivity"
+247-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:228:13-72
+248            android:screenOrientation="portrait" />
+248-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:229:13-49
+249        <activity
+249-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:230:9-233:51
+250            android:name="com.mgs.carparking.ui.SplashWxActivity"
+250-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:232:13-66
+251            android:screenOrientation="portrait"
+251-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:233:13-49
+252            android:theme="@style/AppTheme_Splash" />
+252-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:231:13-51
+253        <activity
+253-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:234:9-236:51
+254            android:name="com.mgs.carparking.ui.WebActivity"
+254-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:235:13-61
+255            android:screenOrientation="portrait" />
+255-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:236:13-49
+256        <activity
+256-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:237:9-239:64
+257            android:name="com.mgs.carparking.ui.GameActivity"
+257-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:239:13-62
+258            android:theme="@style/AppTheme_Splash" />
+258-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:238:13-51
+259        <activity
+259-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:240:9-244:98
+260            android:name="com.facebook.FacebookActivity"
+260-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:243:13-57
+261            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+261-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:244:13-96
+262            android:label="@string/app_name"
+262-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:242:13-45
+263            android:theme="@style/com_facebook_activity_theme" />
+263-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:241:13-63
+264        <activity
+264-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:245:9-262:20
+265            android:name="com.facebook.CustomTabActivity"
+265-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:246:13-58
+266            android:exported="true" >
+266-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:247:13-36
+267            <intent-filter>
+267-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:248:13-253:29
+268                <action android:name="android.intent.action.VIEW" />
+268-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:13-64
+268-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:21-62
+269
+270                <category android:name="android.intent.category.DEFAULT" />
+270-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:250:17-75
+270-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:250:27-73
+271                <category android:name="android.intent.category.BROWSABLE" />
+271-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:54:13-73
+271-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:54:23-71
+272
+273                <data android:scheme="fb648233874223417" />
+273-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:13-43
+273-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:19-41
+274            </intent-filter>
+275            <intent-filter>
+275-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:254:13-261:29
+276                <action android:name="android.intent.action.VIEW" />
+276-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:13-64
+276-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:53:21-62
+277
+278                <category android:name="android.intent.category.DEFAULT" />
+278-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:250:17-75
+278-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:250:27-73
+279                <category android:name="android.intent.category.BROWSABLE" />
+279-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:54:13-73
+279-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:54:23-71
+280
+281                <data
+281-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:13-43
+282                    android:host="cct.com.cti.cinetvin"
+282-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:260:21-56
+283                    android:scheme="fbconnect" />
+283-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:19-41
+284            </intent-filter>
+285        </activity>
+286
+287        <service android:name="com.android.cast.dlna.dmc.DLNACastService" />
+287-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:263:9-76
+287-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:263:18-74
+288        <service android:name="com.android.cast.dlna.dmr.DLNARendererService" />
+288-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:264:9-80
+288-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:264:18-78
+289        <service android:name="com.android.cast.dlna.dms.DLNAContentService" />
+289-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:265:9-79
+289-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:265:18-77
+290
+291        <meta-data
+291-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:266:9-268:35
+292            android:name="OKT_SDK_APP_ID"
+292-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:267:13-42
+293            android:value="1189" />
+293-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:268:13-33
+294        <meta-data
+294-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:269:9-271:63
+295            android:name="OKT_SDK_APP_KEY"
+295-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:270:13-43
+296            android:value="f3ca8eaeee5933b826463889992999df" />
+296-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:271:13-61
+297
+298        <service
+298-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:272:9-279:19
+299            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+299-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:273:13-82
+300            android:enabled="false"
+300-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:274:13-36
+301            android:exported="false" >
+301-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:275:13-37
+302            <meta-data
+302-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:276:13-278:39
+303                android:name="autoStoreLocales"
+303-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:277:17-48
+304                android:value="true" />
+304-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:278:17-37
+305        </service>
+306        <service android:name="com.yk.e.util.MainPreloadService" />
+306-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:280:9-67
+306-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:280:18-65
+307        <service android:name="com.yk.e.util.MainCacheRefService" />
+307-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:281:9-68
+307-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:281:18-66
+308        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+308-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:282:9-117
+308-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:282:18-115
+309        <service
+309-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:283:9-285:48
+310            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+310-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:284:13-108
+311            android:process=":filedownloader" />
+311-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:285:13-46
+312
+313        <activity
+313-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:286:9-291:49
+314            android:name="com.yk.e.activity.RewardVideoActivity"
+314-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:288:13-65
+315            android:configChanges="screenSize|orientation|keyboardHidden"
+315-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:290:13-74
+316            android:hardwareAccelerated="true"
+316-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:291:13-47
+317            android:launchMode="singleTask"
+317-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:289:13-44
+318            android:theme="@style/main_commom_theme" />
+318-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:287:13-53
+319        <activity
+319-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:292:9-297:76
+320            android:name="com.yk.e.activity.WebActivity"
+320-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:294:13-57
+321            android:configChanges="screenSize|orientation|keyboardHidden"
+321-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:297:13-74
+322            android:launchMode="singleTask"
+322-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:295:13-44
+323            android:screenOrientation="portrait"
+323-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:296:13-49
+324            android:theme="@style/main_commom_theme" />
+324-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:293:13-53
+325        <activity
+325-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:298:9-303:76
+326            android:name="com.yk.e.activity.GameActivity"
+326-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:300:13-58
+327            android:configChanges="screenSize|orientation|keyboardHidden"
+327-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:303:13-74
+328            android:launchMode="singleTask"
+328-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:301:13-44
+329            android:screenOrientation="portrait"
+329-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:302:13-49
+330            android:theme="@style/main_commom_theme" />
+330-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:299:13-53
+331        <activity
+331-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:304:9-309:49
+332            android:name="com.yk.e.activity.RewardWebActivity"
+332-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:306:13-63
+333            android:configChanges="screenSize|orientation|keyboardHidden"
+333-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:308:13-74
+334            android:hardwareAccelerated="true"
+334-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:309:13-47
+335            android:launchMode="singleTask"
+335-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:307:13-44
+336            android:theme="@style/main_commom_theme" />
+336-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:305:13-53
+337        <activity
+337-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:310:9-315:49
+338            android:name="com.yk.e.activity.MainInterstitialActivity"
+338-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:312:13-70
+339            android:configChanges="screenSize|orientation|keyboardHidden"
+339-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:314:13-74
+340            android:hardwareAccelerated="true"
+340-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:315:13-47
+341            android:launchMode="singleTask"
+341-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:313:13-44
+342            android:theme="@style/main_dialog_activity_theme" />
+342-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:311:13-62
+343
+344        <provider
+344-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:316:9-324:20
+345            android:name="com.yk.e.provider.MainProvider"
+345-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:317:13-58
+346            android:authorities="com.cti.cinetvin.MainProvider"
+346-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:319:13-64
+347            android:exported="false"
+347-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:318:13-37
+348            android:grantUriPermissions="true" >
+348-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:320:13-47
+349            <meta-data
+349-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:140:13-142:53
+350                android:name="android.support.FILE_PROVIDER_PATHS"
+350-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:141:17-67
+351                android:resource="@xml/main_file_path" />
+351-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:142:17-51
+352        </provider>
+353
+354        <meta-data
+354-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:325:9-327:35
+355            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+355-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:326:13-69
+356            android:value="true" />
+356-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:327:13-33
+357        <meta-data
+357-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:328:9-330:117
+358            android:name="OKT_MAX_SDK_KEY"
+358-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:329:13-43
+359            android:value="mDldykZT8VavsvNyix46brOLNusOEaSOQmP5nOaCIAuJTRVCQCutpUzMRU39tzFGlZLbi5vlA37uS_1A0qSTuB" />
+359-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:330:13-115
+360        <meta-data
+360-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:331:9-333:39
+361            android:name="OKT_SDK_VERSION"
+361-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:332:13-43
+362            android:value="2.12.0.2" />
+362-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:333:13-37
+363        <meta-data
+363-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:334:9-336:60
+364            android:name="OKT_SDK_API"
+364-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:335:13-39
+365            android:value="https://sdkapi-ga.biggogo.com" />
+365-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:336:13-58
+366        <meta-data
+366-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:337:9-339:37
+367            android:name="OKT_SDK_API_VERSION"
+367-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:338:13-47
+368            android:value="2_12_0" />
+368-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:339:13-35
+369
+370        <activity
+370-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:340:9-342:65
+371            android:name="me.goldze.mvvmhabit.base.ContainerActivity"
+371-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:341:13-70
+372            android:configChanges="orientation|keyboardHidden" />
+372-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:342:13-63
+373        <activity
+373-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:343:9-345:48
+374            android:name="me.goldze.mvvmhabit.crash.DefaultErrorActivity"
+374-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:344:13-74
+375            android:process=":error_activity" />
+375-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:345:13-46
+376
+377        <provider
+377-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:346:9-350:38
+378            android:name="me.goldze.mvvmhabit.crash.CaocInitProvider"
+378-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:347:13-70
+379            android:authorities="com.cti.cinetvin.customactivityoncrashinitprovider"
+379-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:349:13-85
+380            android:exported="false"
+380-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:348:13-37
+381            android:initOrder="101" />
+381-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:350:13-36
+382        <provider
+382-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:351:9-359:20
+383            android:name="com.luck.picture.lib.basic.PictureFileProvider"
+383-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:352:13-74
+384            android:authorities="com.cti.cinetvin.luckProvider"
+384-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:354:13-64
+385            android:exported="false"
+385-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:353:13-37
+386            android:grantUriPermissions="true" >
+386-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:355:13-47
+387            <meta-data
+387-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:140:13-142:53
+388                android:name="android.support.FILE_PROVIDER_PATHS"
+388-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:141:17-67
+389                android:resource="@xml/ps_file_paths" />
+389-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:142:17-51
+390        </provider>
+391
+392        <service
+392-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:360:9-363:55
+393            android:name="com.luck.picture.lib.service.ForegroundService"
+393-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:361:13-74
+394            android:enabled="true"
+394-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:362:13-35
+395            android:foregroundServiceType="location" />
+395-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:363:13-53
+396
+397        <activity
+397-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:364:9-367:76
+398            android:name="com.luck.picture.lib.basic.PictureSelectorSupporterActivity"
+398-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:366:13-87
+399            android:configChanges="screenSize|orientation|keyboardHidden"
+399-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:367:13-74
+400            android:theme="@style/Base.Theme.NoActionBar" />
+400-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:365:13-58
+401        <activity
+401-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:368:9-371:76
+402            android:name="com.luck.picture.lib.basic.PictureSelectorTransparentActivity"
+402-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:370:13-89
+403            android:configChanges="screenSize|orientation|keyboardHidden"
+403-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:371:13-74
+404            android:theme="@style/Picture.Theme.Translucent" />
+404-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:369:13-61
+405        <activity
+405-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:372:9-376:76
+406            android:name="com.yalantis.ucrop.UCropActivity"
+406-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:374:13-60
+407            android:configChanges="screenSize|orientation|keyboardHidden"
+407-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:376:13-74
+408            android:screenOrientation="portrait"
+408-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:375:13-49
+409            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+409-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:373:13-69
+410        <activity
+410-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:377:9-381:76
+411            android:name="com.yalantis.ucrop.UCropMultipleActivity"
+411-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:379:13-68
+412            android:configChanges="screenSize|orientation|keyboardHidden"
+412-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:381:13-74
+413            android:screenOrientation="portrait"
+413-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:380:13-49
+414            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+414-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:378:13-69
+415        <activity
+415-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:382:9-385:124
+416            android:name="com.yandex.mobile.ads.common.AdActivity"
+416-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:384:13-67
+417            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
+417-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:385:13-122
+418            android:theme="@style/MonetizationAdsInternal.AdActivity" />
+418-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:383:13-70
+419
+420        <provider
+420-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:386:9-389:81
+421            android:name="com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider"
+421-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:387:13-94
+422            android:authorities="com.cti.cinetvin.MobileAdsInitializeProvider"
+422-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:389:13-79
+423            android:exported="false" />
+423-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:388:13-37
+424
+425        <activity
+425-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:390:9-393:39
+426            android:name="com.yandex.mobile.ads.features.debugpanel.ui.IntegrationInspectorActivity"
+426-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:392:13-101
+427            android:exported="false"
+427-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:393:13-37
+428            android:theme="@style/DebugPanelTheme" />
+428-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:391:13-51
+429
+430        <provider
+430-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:394:9-402:20
+431            android:name="com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider"
+431-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:395:13-103
+432            android:authorities="com.cti.cinetvin.monetization.ads.inspector.fileprovider"
+432-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:397:13-91
+433            android:exported="false"
+433-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:396:13-37
+434            android:grantUriPermissions="true" >
+434-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:398:13-47
+435            <meta-data
+435-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:140:13-142:53
+436                android:name="android.support.FILE_PROVIDER_PATHS"
+436-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:141:17-67
+437                android:resource="@xml/debug_panel_file_paths" />
+437-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:142:17-51
+438        </provider>
+439
+440        <activity
+440-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:403:9-407:49
+441            android:name="com.inmobi.ads.rendering.InMobiAdActivity"
+441-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:405:13-69
+442            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+442-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:406:13-139
+443            android:hardwareAccelerated="true"
+443-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:407:13-47
+444            android:theme="@android:style/Theme.NoTitleBar" />
+444-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:404:13-60
+445
+446        <provider
+446-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:408:9-411:76
+447            android:name="io.bidmachine.BidMachineInitProvider"
+447-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:409:13-64
+448            android:authorities="com.cti.cinetvin.bidmachineinitprovider"
+448-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:411:13-74
+449            android:exported="false" />
+449-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:410:13-37
+450
+451        <activity
+451-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:412:9-414:77
+452            android:name="io.bidmachine.nativead.view.VideoPlayerActivity"
+452-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:414:13-75
+453            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+453-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:413:13-77
+454        <activity
+454-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:415:9-418:124
+455            android:name="io.bidmachine.rendering.ad.fullscreen.FullScreenActivity"
+455-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:417:13-84
+456            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
+456-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:418:13-122
+457            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+457-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:416:13-71
+458        <activity android:name="com.facebook.CustomTabMainActivity" />
+458-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:419:9-70
+458-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:419:19-68
+459        <activity
+459-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:420:9-425:66
+460            android:name="com.yzq.zxinglibrary.android.CaptureActivity"
+460-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:422:13-72
+461            android:configChanges="screenSize|orientation"
+461-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:424:13-59
+462            android:screenOrientation="portrait"
+462-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:423:13-49
+463            android:theme="@style/Theme.AppCompat.NoActionBar"
+463-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:421:13-63
+464            android:windowSoftInputMode="adjustPan|stateHidden" />
+464-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:425:13-64
+465
+466        <provider
+466-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:426:9-429:74
+467            android:name="com.squareup.picasso.PicassoProvider"
+467-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:427:13-64
+468            android:authorities="com.cti.cinetvin.com.squareup.picasso"
+468-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:429:13-72
+469            android:exported="false" />
+469-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:428:13-37
+470        <provider
+470-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:430:9-433:74
+471            android:name="com.facebook.internal.FacebookInitProvider"
+471-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:431:13-70
+472            android:authorities="com.cti.cinetvin.FacebookInitProvider"
+472-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:433:13-72
+473            android:exported="false" />
+473-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:432:13-37
+474
+475        <receiver
+475-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:434:9-440:20
+476            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+476-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:435:13-86
+477            android:exported="false" >
+477-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:436:13-37
+478            <intent-filter>
+478-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:437:13-439:29
+479                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+479-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:438:17-94
+479-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:438:25-92
+480            </intent-filter>
+481        </receiver>
+482        <receiver
+482-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:441:9-447:20
+483            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+483-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:442:13-118
+484            android:exported="false" >
+484-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:443:13-37
+485            <intent-filter>
+485-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:444:13-446:29
+486                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+486-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:445:17-102
+486-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:445:25-100
+487            </intent-filter>
+488        </receiver>
+489
+490        <activity
+490-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:448:9-452:49
+491            android:name="com.ironsource.sdk.controller.ControllerActivity"
+491-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:449:13-76
+492            android:configChanges="screenSize|orientation"
+492-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:451:13-59
+493            android:exported="false"
+493-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:450:13-37
+494            android:hardwareAccelerated="true" />
+494-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:452:13-47
+495        <activity
+495-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:453:9-458:49
+496            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+496-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:455:13-78
+497            android:configChanges="screenSize|orientation"
+497-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:457:13-59
+498            android:exported="false"
+498-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:456:13-37
+499            android:hardwareAccelerated="true"
+499-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:458:13-47
+500            android:theme="@android:style/Theme.Translucent" />
+500-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:454:13-61
+501        <activity
+501-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:459:9-464:49
+502            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+502-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:461:13-73
+503            android:configChanges="screenSize|orientation"
+503-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:463:13-59
+504            android:exported="false"
+504-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:462:13-37
+505            android:hardwareAccelerated="true"
+505-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:464:13-47
+506            android:theme="@android:style/Theme.Translucent" />
+506-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:460:13-61
+507        <activity
+507-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:465:9-474:20
+508            android:name="com.ironsource.mediationsdk.testSuite.TestSuiteActivity"
+508-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:467:13-83
+509            android:configChanges="screenSize|orientation"
+509-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:469:13-59
+510            android:exported="false"
+510-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:468:13-37
+511            android:hardwareAccelerated="true"
+511-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:470:13-47
+512            android:theme="@android:style/Theme.NoTitleBar" >
+512-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:466:13-60
+513            <meta-data
+513-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:471:13-473:39
+514                android:name="android.webkit.WebView.EnableSafeBrowsing"
+514-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:472:17-73
+515                android:value="true" />
+515-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:473:17-37
+516        </activity>
+517
+518        <provider
+518-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:475:9-478:81
+519            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider"
+519-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:476:13-80
+520            android:authorities="com.cti.cinetvin.IronsourceLifecycleProvider"
+520-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:478:13-79
+521            android:exported="false" />
+521-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:477:13-37
+522
+523        <service
+523-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:479:9-489:19
+524            android:name="io.appmetrica.analytics.internal.AppMetricaService"
+524-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:480:13-78
+525            android:enabled="true"
+525-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:481:13-35
+526            android:exported="false"
+526-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:482:13-37
+527            android:process=":AppMetrica" >
+527-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:483:13-42
+528            <intent-filter>
+528-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:484:13-488:29
+529                <category android:name="android.intent.category.DEFAULT" />
+529-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:250:17-75
+529-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:250:27-73
+530
+531                <action android:name="io.appmetrica.analytics.IAppMetricaService" />
+531-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:486:17-84
+531-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:486:25-82
+532
+533                <data android:scheme="appmetrica" />
+533-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:13-43
+533-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:55:19-41
+534            </intent-filter>
+535        </service>
+536
+537        <provider
+537-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:490:9-495:83
+538            android:name="io.appmetrica.analytics.internal.PreloadInfoContentProvider"
+538-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:491:13-87
+539            android:authorities="com.cti.cinetvin.appmetrica.preloadinfo.retail"
+539-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:495:13-81
+540            android:enabled="true"
+540-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:492:13-35
+541            android:exported="true"
+541-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:493:13-36
+542            android:process=":AppMetrica" />
+542-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:494:13-42
+543
+544        <activity
+544-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:496:9-500:49
+545            android:name="com.vungle.ads.internal.ui.VungleActivity"
+545-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:497:13-69
+546            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden"
+546-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:499:13-113
+547            android:hardwareAccelerated="true"
+547-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:500:13-47
+548            android:launchMode="singleTop" />
+548-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:498:13-43
+549        <activity
+549-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:501:9-506:49
+550            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+550-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:503:13-74
+551            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+551-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:505:13-170
+552            android:exported="false"
+552-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:504:13-37
+553            android:hardwareAccelerated="true"
+553-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:506:13-47
+554            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+554-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:502:13-71
+555        <activity
+555-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:507:9-512:49
+556            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+556-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:509:13-85
+557            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+557-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:511:13-170
+558            android:exported="false"
+558-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:510:13-37
+559            android:hardwareAccelerated="true"
+559-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:512:13-47
+560            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+560-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:508:13-83
+561        <activity
+561-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:513:9-518:50
+562            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+562-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:515:13-93
+563            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+563-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:517:13-170
+564            android:exported="false"
+564-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:516:13-37
+565            android:hardwareAccelerated="false"
+565-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:518:13-48
+566            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+566-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:514:13-83
+567        <activity
+567-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:519:9-524:50
+568            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+568-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:521:13-82
+569            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+569-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:523:13-170
+570            android:exported="false"
+570-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:522:13-37
+571            android:hardwareAccelerated="false"
+571-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:524:13-48
+572            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+572-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:520:13-71
+573        <activity
+573-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:525:9-530:49
+574            android:name="com.unity3d.ads.adplayer.FullScreenWebViewDisplay"
+574-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:527:13-77
+575            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+575-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:529:13-170
+576            android:exported="false"
+576-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:528:13-37
+577            android:hardwareAccelerated="true"
+577-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:530:13-47
+578            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+578-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:526:13-71
+579
+580        <provider
+580-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:531:9-550:20
+581            android:name="androidx.startup.InitializationProvider"
+581-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:532:13-67
+582            android:authorities="com.cti.cinetvin.androidx-startup"
+582-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:534:13-68
+583            android:exported="false" >
+583-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:533:13-37
+584            <meta-data
+584-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:535:13-537:51
+585                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+585-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:536:17-78
+586                android:value="androidx.startup" />
+586-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:537:17-49
+587            <meta-data
+587-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:538:13-540:51
+588                android:name="com.unity3d.services.core.configuration.AdsSdkInitializer"
+588-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:539:17-89
+589                android:value="androidx.startup" />
+589-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:540:17-49
+590            <meta-data
+590-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:541:13-543:51
+591                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+591-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:542:17-75
+592                android:value="androidx.startup" />
+592-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:543:17-49
+593            <meta-data
+593-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:544:13-546:51
+594                android:name="androidx.work.WorkManagerInitializer"
+594-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:545:17-68
+595                android:value="androidx.startup" />
+595-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:546:17-49
+596            <meta-data
+596-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:547:13-549:51
+597                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+597-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:548:17-85
+598                android:value="androidx.startup" />
+598-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:549:17-49
+599        </provider>
+600        <provider
+600-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:551:9-555:38
+601            android:name="com.applovin.sdk.AppLovinInitProvider"
+601-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:552:13-65
+602            android:authorities="com.cti.cinetvin.applovininitprovider"
+602-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:554:13-72
+603            android:exported="false"
+603-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:553:13-37
+604            android:initOrder="101" />
+604-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:555:13-36
+605
+606        <activity
+606-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:556:9-563:49
+607            android:name="com.applovin.adview.AppLovinFullscreenActivity"
+607-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:558:13-74
+608            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+608-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:562:13-139
+609            android:exported="false"
+609-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:559:13-37
+610            android:hardwareAccelerated="true"
+610-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:563:13-47
+611            android:launchMode="singleTop"
+611-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:560:13-43
+612            android:screenOrientation="behind"
+612-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:561:13-47
+613            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+613-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:557:13-71
+614        <activity
+614-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:564:9-566:141
+615            android:name="com.applovin.sdk.AppLovinWebViewActivity"
+615-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:565:13-68
+616            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale" />
+616-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:566:13-139
+617        <activity
+617-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:567:9-570:141
+618            android:name="com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity"
+618-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:569:13-84
+619            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+619-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:570:13-139
+620            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+620-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:568:13-71
+621        <activity
+621-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:571:9-574:141
+622            android:name="com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity"
+622-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:573:13-86
+623            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+623-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:574:13-139
+624            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+624-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:572:13-71
+625        <activity
+625-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:575:9-578:141
+626            android:name="com.applovin.mediation.MaxDebuggerActivity"
+626-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:577:13-70
+627            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+627-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:578:13-139
+628            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+628-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:576:13-84
+629        <activity
+629-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:579:9-582:141
+630            android:name="com.applovin.mediation.MaxDebuggerDetailActivity"
+630-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:581:13-76
+631            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+631-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:582:13-139
+632            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+632-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:580:13-84
+633        <activity
+633-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:583:9-586:141
+634            android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity"
+634-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:585:13-77
+635            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+635-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:586:13-139
+636            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+636-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:584:13-84
+637        <activity
+637-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:587:9-590:141
+638            android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity"
+638-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:589:13-81
+639            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+639-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:590:13-139
+640            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+640-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:588:13-84
+641        <activity
+641-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:591:9-594:141
+642            android:name="com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity"
+642-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:593:13-90
+643            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+643-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:594:13-139
+644            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+644-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:592:13-84
+645        <activity
+645-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:595:9-598:141
+646            android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"
+646-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:597:13-82
+647            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+647-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:598:13-139
+648            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+648-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:596:13-84
+649        <activity
+649-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:599:9-602:141
+650            android:name="com.applovin.mediation.MaxDebuggerCmpNetworksListActivity"
+650-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:601:13-85
+651            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+651-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:602:13-139
+652            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+652-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:600:13-84
+653        <activity
+653-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:603:9-606:141
+654            android:name="com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity"
+654-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:605:13-92
+655            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+655-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:606:13-139
+656            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+656-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:604:13-84
+657        <activity
+657-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:607:9-610:141
+658            android:name="com.applovin.mediation.MaxDebuggerTcfInfoListActivity"
+658-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:609:13-81
+659            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+659-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:610:13-139
+660            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+660-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:608:13-84
+661        <activity
+661-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:611:9-614:141
+662            android:name="com.applovin.mediation.MaxDebuggerTcfStringActivity"
+662-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:613:13-79
+663            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+663-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:614:13-139
+664            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+664-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:612:13-84
+665        <activity
+665-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:615:9-618:141
+666            android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity"
+666-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:617:13-85
+667            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+667-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:618:13-139
+668            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+668-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:616:13-84
+669        <activity
+669-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:619:9-622:141
+670            android:name="com.applovin.mediation.MaxDebuggerTestModeNetworkActivity"
+670-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:621:13-85
+671            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+671-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:622:13-139
+672            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+672-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:620:13-84
+673        <activity
+673-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:623:9-626:141
+674            android:name="com.applovin.mediation.MaxDebuggerUnifiedFlowActivity"
+674-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:625:13-81
+675            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+675-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:626:13-139
+676            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+676-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:624:13-84
+677        <activity
+677-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:627:9-630:141
+678            android:name="com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity"
+678-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:629:13-87
+679            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+679-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:630:13-139
+680            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+680-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:628:13-84
+681        <activity
+681-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:631:9-634:141
+682            android:name="com.applovin.creative.MaxCreativeDebuggerActivity"
+682-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:633:13-77
+683            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+683-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:634:13-139
+684            android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme" />
+684-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:632:13-88
+685        <activity
+685-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:635:9-638:141
+686            android:name="com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity"
+686-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:637:13-88
+687            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale"
+687-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:638:13-139
+688            android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme" />
+688-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:636:13-88
+689
+690        <service
+690-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:639:9-642:43
+691            android:name="com.applovin.impl.adview.activity.FullscreenAdService"
+691-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:640:13-81
+692            android:exported="false"
+692-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:641:13-37
+693            android:stopWithTask="false" />
+693-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:642:13-41
+694
+695        <activity
+695-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:643:9-647:108
+696            android:name="com.facebook.ads.AudienceNetworkActivity"
+696-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:645:13-68
+697            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+697-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:647:13-106
+698            android:exported="false"
+698-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:646:13-37
+699            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+699-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:644:13-72
+700
+701        <provider
+701-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:648:9-651:84
+702            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+702-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:649:13-75
+703            android:authorities="com.cti.cinetvin.AudienceNetworkContentProvider"
+703-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:651:13-82
+704            android:exported="false" />
+704-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:650:13-37
+705
+706        <activity
+706-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:652:9-655:39
+707            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+707-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:654:13-79
+708            android:exported="false"
+708-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:655:13-37
+709            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+709-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:653:13-72
+710        <activity
+710-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:656:9-660:124
+711            android:name="com.google.android.gms.ads.AdActivity"
+711-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:658:13-65
+712            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
+712-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:660:13-122
+713            android:exported="false"
+713-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:659:13-37
+714            android:theme="@android:style/Theme.Translucent" />
+714-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:657:13-61
+715
+716        <provider
+716-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:661:9-665:38
+717            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+717-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:662:13-76
+718            android:authorities="com.cti.cinetvin.mobileadsinitprovider"
+718-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:664:13-73
+719            android:exported="false"
+719-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:663:13-37
+720            android:initOrder="100" />
+720-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:665:13-36
+721
+722        <service
+722-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:666:9-669:39
+723            android:name="com.google.android.gms.ads.AdService"
+723-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:667:13-64
+724            android:enabled="true"
+724-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:668:13-35
+725            android:exported="false" />
+725-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:669:13-37
+726
+727        <activity
+727-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:670:9-673:124
+728            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+728-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:671:13-82
+729            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
+729-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:673:13-122
+730            android:exported="false" />
+730-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:672:13-37
+731        <activity
+731-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:674:9-680:46
+732            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+732-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:676:13-82
+733            android:excludeFromRecents="true"
+733-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:679:13-46
+734            android:exported="false"
+734-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:677:13-37
+735            android:launchMode="singleTask"
+735-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:680:13-44
+736            android:taskAffinity=""
+736-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:678:13-36
+737            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+737-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:675:13-72
+738
+739        <property
+739-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:681:9-683:61
+740            android:name="android.adservices.AD_SERVICES_CONFIG"
+740-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:682:13-65
+741            android:resource="@xml/gma_ad_services_config" />
+741-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:683:13-59
+742
+743        <meta-data
+743-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:684:9-686:68
+744            android:name="com.google.android.gms.version"
+744-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:685:13-58
+745            android:value="@integer/google_play_services_version" />
+745-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:686:13-66
+746
+747        <activity
+747-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:687:9-691:76
+748            android:name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"
+748-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:689:13-86
+749            android:configChanges="screenSize|orientation|keyboardHidden"
+749-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:691:13-74
+750            android:launchMode="standard"
+750-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:690:13-42
+751            android:theme="@style/tt_landing_page" />
+751-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:688:13-51
+752        <activity
+752-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:692:9-696:76
+753            android:name="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"
+753-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:694:13-94
+754            android:configChanges="screenSize|orientation|keyboardHidden"
+754-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:696:13-74
+755            android:launchMode="standard"
+755-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:695:13-42
+756            android:theme="@style/tt_landing_page" />
+756-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:693:13-51
+757        <activity
+757-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:697:9-701:76
+758            android:name="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity"
+758-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:699:13-96
+759            android:configChanges="screenSize|orientation|keyboardHidden"
+759-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:701:13-74
+760            android:launchMode="standard"
+760-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:700:13-42
+761            android:theme="@style/tt_landing_page" />
+761-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:698:13-51
+762        <activity
+762-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:702:9-705:44
+763            android:name="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"
+763-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:704:13-83
+764            android:launchMode="standard"
+764-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:705:13-42
+765            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+765-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:703:13-72
+766        <activity
+766-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:706:9-710:51
+767            android:name="com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
+767-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:708:13-82
+768            android:launchMode="standard"
+768-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:709:13-42
+769            android:screenOrientation="portrait"
+769-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:710:13-49
+770            android:theme="@style/tt_privacy_landing_page" />
+770-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:707:13-59
+771
+772        <service android:name="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService" />
+772-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:711:9-94
+772-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:711:18-92
+773
+774        <activity
+774-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:712:9-716:76
+775            android:name="com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity"
+775-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:714:13-84
+776            android:configChanges="screenSize|orientation|keyboardHidden"
+776-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:716:13-74
+777            android:launchMode="standard"
+777-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:715:13-42
+778            android:theme="@style/tt_app_open_ad_no_animation" />
+778-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:713:13-63
+779        <activity
+779-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:717:9-721:76
+780            android:name="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"
+780-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:719:13-86
+781            android:configChanges="screenSize|orientation|keyboardHidden"
+781-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:721:13-74
+782            android:launchMode="standard"
+782-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:720:13-42
+783            android:theme="@style/tt_full_screen_new" />
+783-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:718:13-54
+784        <activity
+784-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:722:9-726:76
+785            android:name="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"
+785-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:724:13-93
+786            android:configChanges="screenSize|orientation|keyboardHidden"
+786-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:726:13-74
+787            android:launchMode="standard"
+787-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:725:13-42
+788            android:theme="@style/tt_full_screen_new" />
+788-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:723:13-54
+789        <activity
+789-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:727:9-731:76
+790            android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"
+790-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:729:13-90
+791            android:configChanges="screenSize|orientation|keyboardHidden"
+791-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:731:13-74
+792            android:launchMode="standard"
+792-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:730:13-42
+793            android:theme="@style/tt_full_screen_new" />
+793-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:728:13-54
+794        <activity
+794-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:732:9-736:76
+795            android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"
+795-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:734:13-97
+796            android:configChanges="screenSize|orientation|keyboardHidden"
+796-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:736:13-74
+797            android:launchMode="standard"
+797-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:735:13-42
+798            android:theme="@style/tt_full_screen_new" />
+798-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:733:13-54
+799        <activity
+799-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:737:9-741:76
+800            android:name="com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity"
+800-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:739:13-87
+801            android:configChanges="screenSize|orientation|keyboardHidden"
+801-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:741:13-74
+802            android:launchMode="standard"
+802-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:740:13-42
+803            android:theme="@style/tt_full_screen_interaction" />
+803-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:738:13-62
+804        <activity
+804-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:742:9-746:76
+805            android:name="com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity"
+805-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:744:13-94
+806            android:configChanges="screenSize|orientation|keyboardHidden"
+806-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:746:13-74
+807            android:launchMode="standard"
+807-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:745:13-42
+808            android:theme="@style/tt_full_screen_interaction" />
+808-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:743:13-62
+809        <activity
+809-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:747:9-751:76
+810            android:name="com.bytedance.sdk.openadsdk.activity.AdActivity"
+810-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:749:13-75
+811            android:configChanges="screenSize|orientation|keyboardHidden"
+811-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:751:13-74
+812            android:launchMode="standard"
+812-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:750:13-42
+813            android:theme="@style/tt_full_screen_new" />
+813-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:748:13-54
+814
+815        <service
+815-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:752:9-756:46
+816            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+816-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:753:13-88
+817            android:directBootAware="false"
+817-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:756:13-44
+818            android:enabled="@bool/enable_system_alarm_service_default"
+818-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:754:13-72
+819            android:exported="false" />
+819-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:755:13-37
+820        <service
+820-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:757:9-762:46
+821            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+821-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:758:13-84
+822            android:directBootAware="false"
+822-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:762:13-44
+823            android:enabled="@bool/enable_system_job_service_default"
+823-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:760:13-70
+824            android:exported="true"
+824-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:761:13-36
+825            android:permission="android.permission.BIND_JOB_SERVICE" />
+825-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:759:13-69
+826        <service
+826-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:763:9-767:46
+827            android:name="androidx.work.impl.foreground.SystemForegroundService"
+827-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:764:13-81
+828            android:directBootAware="false"
+828-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:767:13-44
+829            android:enabled="@bool/enable_system_foreground_service_default"
+829-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:765:13-77
+830            android:exported="false" />
+830-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:766:13-37
+831
+832        <receiver
+832-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:768:9-772:46
+833            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+833-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:769:13-88
+834            android:directBootAware="false"
+834-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:772:13-44
+835            android:enabled="true"
+835-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:770:13-35
+836            android:exported="false" />
+836-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:771:13-37
+837        <receiver
+837-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:773:9-782:20
+838            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+838-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:774:13-106
+839            android:directBootAware="false"
+839-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:777:13-44
+840            android:enabled="false"
+840-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:775:13-36
+841            android:exported="false" >
+841-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:776:13-37
+842            <intent-filter>
+842-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:778:13-781:29
+843                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+843-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:779:17-86
+843-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:779:25-84
+844                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+844-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:780:17-89
+844-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:780:25-87
+845            </intent-filter>
+846        </receiver>
+847        <receiver
+847-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:783:9-792:20
+848            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+848-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:784:13-104
+849            android:directBootAware="false"
+849-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:787:13-44
+850            android:enabled="false"
+850-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:785:13-36
+851            android:exported="false" >
+851-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:786:13-37
+852            <intent-filter>
+852-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:788:13-791:29
+853                <action android:name="android.intent.action.BATTERY_OKAY" />
+853-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:789:17-76
+853-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:789:25-74
+854                <action android:name="android.intent.action.BATTERY_LOW" />
+854-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:790:17-75
+854-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:790:25-73
+855            </intent-filter>
+856        </receiver>
+857        <receiver
+857-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:793:9-802:20
+858            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+858-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:794:13-104
+859            android:directBootAware="false"
+859-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:797:13-44
+860            android:enabled="false"
+860-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:795:13-36
+861            android:exported="false" >
+861-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:796:13-37
+862            <intent-filter>
+862-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:798:13-801:29
+863                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+863-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:799:17-82
+863-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:799:25-80
+864                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+864-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:800:17-81
+864-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:800:25-79
+865            </intent-filter>
+866        </receiver>
+867        <receiver
+867-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:803:9-811:20
+868            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+868-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:804:13-103
+869            android:directBootAware="false"
+869-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:807:13-44
+870            android:enabled="false"
+870-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:805:13-36
+871            android:exported="false" >
+871-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:806:13-37
+872            <intent-filter>
+872-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:808:13-810:29
+873                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+873-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:809:17-78
+873-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:809:25-76
+874            </intent-filter>
+875        </receiver>
+876        <receiver
+876-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:812:9-822:20
+877            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+877-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:813:13-88
+878            android:directBootAware="false"
+878-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:816:13-44
+879            android:enabled="false"
+879-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:814:13-36
+880            android:exported="false" >
+880-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:815:13-37
+881            <intent-filter>
+881-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:817:13-821:29
+882                <action android:name="android.intent.action.BOOT_COMPLETED" />
+882-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:818:17-78
+882-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:818:25-76
+883                <action android:name="android.intent.action.TIME_SET" />
+883-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:819:17-72
+883-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:819:25-70
+884                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+884-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:820:17-80
+884-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:820:25-78
+885            </intent-filter>
+886        </receiver>
+887        <receiver
+887-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:823:9-831:20
+888            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+888-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:824:13-99
+889            android:directBootAware="false"
+889-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:827:13-44
+890            android:enabled="@bool/enable_system_alarm_service_default"
+890-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:825:13-72
+891            android:exported="false" >
+891-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:826:13-37
+892            <intent-filter>
+892-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:828:13-830:29
+893                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+893-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:829:17-97
+893-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:829:25-95
+894            </intent-filter>
+895        </receiver>
+896        <receiver
+896-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:832:9-841:20
+897            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+897-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:833:13-78
+898            android:directBootAware="false"
+898-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:837:13-44
+899            android:enabled="true"
+899-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:835:13-35
+900            android:exported="true"
+900-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:836:13-36
+901            android:permission="android.permission.DUMP" >
+901-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:834:13-57
+902            <intent-filter>
+902-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:838:13-840:29
+903                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+903-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:839:17-87
+903-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:839:25-85
+904            </intent-filter>
+905        </receiver>
+906
+907        <uses-library
+907-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:842:9-844:39
+908            android:name="androidx.window.extensions"
+908-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:843:13-54
+909            android:required="false" />
+909-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:844:13-37
+910        <uses-library
+910-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:845:9-847:39
+911            android:name="androidx.window.sidecar"
+911-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:846:13-51
+912            android:required="false" />
+912-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:847:13-37
+913        <uses-library
+913-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:848:9-850:39
+914            android:name="android.ext.adservices"
+914-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:849:13-50
+915            android:required="false" />
+915-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:850:13-37
+916
+917        <receiver
+917-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:851:9-869:20
+918            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+918-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:852:13-76
+919            android:directBootAware="false"
+919-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:856:13-44
+920            android:enabled="true"
+920-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:854:13-35
+921            android:exported="true"
+921-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:855:13-36
+922            android:permission="android.permission.DUMP" >
+922-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:853:13-57
+923            <intent-filter>
+923-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:857:13-859:29
+924                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+924-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:858:17-90
+924-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:858:25-88
+925            </intent-filter>
+926            <intent-filter>
+926-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:860:13-862:29
+927                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+927-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:861:17-84
+927-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:861:25-82
+928            </intent-filter>
+929            <intent-filter>
+929-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:863:13-865:29
+930                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+930-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:864:17-87
+930-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:864:25-85
+931            </intent-filter>
+932            <intent-filter>
+932-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:866:13-868:29
+933                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+933-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:867:17-94
+933-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:867:25-92
+934            </intent-filter>
+935        </receiver>
+936
+937        <service
+937-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:870:9-873:45
+938            android:name="androidx.room.MultiInstanceInvalidationService"
+938-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:871:13-74
+939            android:directBootAware="true"
+939-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:873:13-43
+940            android:exported="false" />
+940-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:872:13-37
+941
+942        <activity
+942-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:874:9-878:76
+943            android:name="com.mbridge.msdk.reward.player.MBRewardVideoActivity"
+943-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:876:13-80
+944            android:configChanges="screenSize|orientation|keyboardHidden"
+944-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:878:13-74
+945            android:excludeFromRecents="true"
+945-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:877:13-46
+946            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+946-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:875:13-72
+947        <activity
+947-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:879:9-882:61
+948            android:name="com.mbridge.msdk.interstitial.view.MBInterstitialActivity"
+948-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:880:13-85
+949            android:configChanges="screenSize|orientation"
+949-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:882:13-59
+950            android:excludeFromRecents="true" />
+950-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:881:13-46
+951        <activity
+951-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:883:9-888:59
+952            android:name="com.mbridge.msdk.activity.MBCommonActivity"
+952-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:885:13-70
+953            android:configChanges="orientation|keyboard"
+953-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:888:13-57
+954            android:excludeFromRecents="true"
+954-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:887:13-46
+955            android:exported="false"
+955-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:886:13-37
+956            android:theme="@style/mbridge_transparent_common_activity_style" />
+956-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:884:13-77
+957        <activity android:name="com.mbridge.msdk.out.LoadingActivity" />
+957-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:889:9-72
+957-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:889:19-70
+958        <activity
+958-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:890:9-893:51
+959            android:name="sg.bigo.ads.ad.splash.AdSplashActivity"
+959-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:892:13-66
+960            android:screenOrientation="portrait"
+960-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:893:13-49
+961            android:theme="@android:style/Theme" />
+961-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:891:13-49
+962        <activity
+962-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:894:9-897:52
+963            android:name="sg.bigo.ads.ad.splash.LandscapeAdSplashActivity"
+963-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:896:13-75
+964            android:screenOrientation="landscape"
+964-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:897:13-50
+965            android:theme="@android:style/Theme" />
+965-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:895:13-49
+966
+967        <provider
+967-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:898:9-901:69
+968            android:name="sg.bigo.ads.controller.provider.BigoAdsProvider"
+968-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:899:13-75
+969            android:authorities="com.cti.cinetvin.BigoAdsProvider"
+969-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:901:13-67
+970            android:exported="false" />
+970-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:900:13-37
+971
+972        <activity
+972-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:902:9-907:62
+973            android:name="sg.bigo.ads.api.AdActivity"
+973-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:904:13-54
+974            android:configChanges="screenSize|orientation"
+974-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:906:13-59
+975            android:screenOrientation="portrait"
+975-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:905:13-49
+976            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+976-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:903:13-72
+977            android:windowSoftInputMode="stateAlwaysHidden" />
+977-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:907:13-60
+978        <activity
+978-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:908:9-913:62
+979            android:name="sg.bigo.ads.api.LandscapeAdActivity"
+979-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:910:13-63
+980            android:configChanges="screenSize|orientation"
+980-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:912:13-59
+981            android:screenOrientation="landscape"
+981-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:911:13-50
+982            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+982-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:909:13-72
+983            android:windowSoftInputMode="stateAlwaysHidden" />
+983-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:913:13-60
+984        <activity
+984-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:914:9-919:62
+985            android:name="sg.bigo.ads.api.CompanionAdActivity"
+985-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:916:13-63
+986            android:configChanges="screenSize|orientation"
+986-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:918:13-59
+987            android:screenOrientation="portrait"
+987-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:917:13-49
+988            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+988-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:915:13-72
+989            android:windowSoftInputMode="stateAlwaysHidden" />
+989-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:919:13-60
+990        <activity
+990-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:920:9-925:62
+991            android:name="sg.bigo.ads.api.LandscapeCompanionAdActivity"
+991-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:922:13-72
+992            android:configChanges="screenSize|orientation"
+992-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:924:13-59
+993            android:screenOrientation="landscape"
+993-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:923:13-50
+994            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+994-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:921:13-72
+995            android:windowSoftInputMode="stateAlwaysHidden" />
+995-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:925:13-60
+996        <activity
+996-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:926:9-930:76
+997            android:name="sg.bigo.ads.core.mraid.MraidVideoActivity"
+997-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:928:13-69
+998            android:configChanges="screenSize|orientation|keyboardHidden"
+998-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:930:13-74
+999            android:screenOrientation="portrait"
+999-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:929:13-49
+1000            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+1000-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:927:13-71
+1001        <activity
+1001-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:931:9-935:49
+1002            android:name="com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity"
+1002-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:932:13-99
+1003            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+1003-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:934:13-106
+1004            android:hardwareAccelerated="true"
+1004-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:935:13-47
+1005            android:screenOrientation="fullUser" />
+1005-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:933:13-49
+1006        <activity
+1006-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:936:9-940:49
+1007            android:name="com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity"
+1007-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:938:13-96
+1008            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+1008-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:939:13-106
+1009            android:hardwareAccelerated="true"
+1009-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:940:13-47
+1010            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+1010-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:937:13-71
+1011        <activity
+1011-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:941:9-945:49
+1012            android:name="com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore"
+1012-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:943:13-108
+1013            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+1013-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:944:13-106
+1014            android:hardwareAccelerated="true"
+1014-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:945:13-47
+1015            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+1015-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:942:13-71
+1016        <activity
+1016-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:946:9-951:108
+1017            android:name="com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity"
+1017-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:948:13-93
+1018            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+1018-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:951:13-106
+1019            android:excludeFromRecents="true"
+1019-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:949:13-46
+1020            android:screenOrientation="sensor"
+1020-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:950:13-47
+1021            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+1021-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:947:13-72
+1022        <activity
+1022-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:952:9-956:49
+1023            android:name="com.fyber.inneractive.sdk.activities.FyberReportAdActivity"
+1023-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:953:13-86
+1024            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+1024-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:955:13-106
+1025            android:hardwareAccelerated="true"
+1025-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:956:13-47
+1026            android:screenOrientation="fullUser" />
+1026-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:954:13-49
+1027        <activity
+1027-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:957:9-960:76
+1028            android:name="com.explorestack.iab.mraid.MraidActivity"
+1028-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:959:13-68
+1029            android:configChanges="screenSize|orientation|keyboardHidden"
+1029-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:960:13-74
+1030            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+1030-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:958:13-71
+1031        <activity
+1031-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:961:9-964:76
+1032            android:name="com.explorestack.iab.mraid.MraidDialogActivity"
+1032-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:963:13-74
+1033            android:configChanges="screenSize|orientation|keyboardHidden"
+1033-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:964:13-74
+1034            android:theme="@style/MraidDialogTheme" />
+1034-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:962:13-52
+1035        <activity
+1035-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:965:9-968:76
+1036            android:name="com.explorestack.iab.vast.activity.VastActivity"
+1036-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:967:13-75
+1037            android:configChanges="screenSize|orientation|keyboardHidden"
+1037-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:968:13-74
+1038            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+1038-->/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/AndroidManifest.xml:966:13-71
+1039    </application>
+1040
+1041</manifest>

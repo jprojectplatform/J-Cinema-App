@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cti.cinetvin.app-mergeDebugResources-2:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/res/values-land/styles.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,244",
+                        "endLines": "5,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "239,657"
+                    },
+                    "to": {
+                        "startLines": "23,27",
+                        "startColumns": "4,4",
+                        "startOffsets": "1561,1750",
+                        "endLines": "26,32",
+                        "endColumns": "12,12",
+                        "endOffsets": "1745,2163"
+                    }
+                },
+                {
+                    "source": "/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/res/values-land/dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,196,264,339,413,486,556,621,688,758,830,899,968,1050,1140,1216,1284,1351",
+                        "endColumns": "69,70,67,74,73,72,69,64,66,69,71,68,68,81,89,75,67,66,77",
+                        "endOffsets": "120,191,259,334,408,481,551,616,683,753,825,894,963,1045,1135,1211,1279,1346,1424"
+                    }
+                },
+                {
+                    "source": "/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/res/values-land/integers.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,120",
+                        "endColumns": "64,66",
+                        "endOffsets": "115,182"
+                    },
+                    "to": {
+                        "startLines": "21,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "1429,1494",
+                        "endColumns": "64,66",
+                        "endOffsets": "1489,1556"
+                    }
+                }
+            ]
+        }
+    ]
+}

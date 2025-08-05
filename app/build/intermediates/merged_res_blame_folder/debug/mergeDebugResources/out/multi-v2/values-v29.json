@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cti.cinetvin.app-mergeDebugResources-2:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "/home/jh4ck3r/Tools/apk_jh4ck3r/cine_source/app/src/main/res/values-v29/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "229"
+                    }
+                }
+            ]
+        }
+    ]
+}
